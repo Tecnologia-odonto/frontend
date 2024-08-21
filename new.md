@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     Usuario <|-- Administrador
     Usuario <|-- Operador
@@ -80,3 +81,4 @@ classDiagram
     Administrador "1" o-- "0..*" Relatorio : gera
     Administrador "1" o-- "0..*" EstoqueAlimentos : monitoriza
     Operador "1" o-- "0..*" Refeicao : registra
+```
